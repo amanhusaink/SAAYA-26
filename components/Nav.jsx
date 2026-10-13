@@ -31,6 +31,7 @@ export default function Nav() {
           <li><Link href="/about">About</Link></li>
         </ul>
         <ul className="ac">
+          {/* Theme toggle temporarily hidden
           <li className="tgl">
             <button
               id="tg"
@@ -42,6 +43,7 @@ export default function Nav() {
               {theme === 'dark' ? '\u2600' : '\u263E'}
             </button>
           </li>
+          */}
           <li>
             <a className="btn" href="#">Register</a>
           </li>
